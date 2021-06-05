@@ -1,4 +1,7 @@
-function get_bytecode(path)
+-->; Table _ENV
+local lib = {}
+-->; Function _ENV
+function lib:get_bytecode(path)
 	v0 = path
 	local s = ""
     local indent = 0
@@ -88,3 +91,5 @@ function get_bytecode(path)
     decomp(v0)
     return s
 end
+-->; Library _ENV RTN
+return lib
