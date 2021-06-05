@@ -1,7 +1,7 @@
 -->; Table _ENV
 local lib = {}
 -->; Function _ENV
-function lib:rtn_lbts(path)
+function lib:RTN_LBTS(path) -->; Return [_] Luau Bytecode to Script
 	v0 = path
 	local s = ""
     local indent = 0
