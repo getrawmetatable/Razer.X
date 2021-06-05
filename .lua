@@ -1,7 +1,7 @@
 -->; Table _ENV
 local lib = {}
 -->; Function _ENV
-function lib:get_bytecode(path)
+function lib:rtn_lbts(path)
 	v0 = path
 	local s = ""
     local indent = 0
