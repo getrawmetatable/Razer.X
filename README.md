@@ -1,5 +1,5 @@
 ## Razer X
-**Razer X is a luau bytecode decompiler for local/module scripts in game & returns it in [LI/Lua Instruction bytecode]**
+**Razer X is a luau bytecode decompiler for local/module scripts in game & returns it in [LIB/Lua Instruction bytecode]**
 ## Initialization
 ```lua
 -->; Init
